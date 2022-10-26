@@ -66,11 +66,10 @@ $query_cadastros = mysqli_query($connx, $buscar_cadastros);
 
         <tr>
           <form action="cadastro.php" method="POST">
-            <td></td>
-            <td><input type="text" name="nome" placeholder="Digite o Nome"></td>
-            <td><input type="text" name="email" placeholder="Infome o Email"></td>
-            <td><input type="text" name="telefone" placeholder="Digite o Telefone"></td>
-            <td><input class="btn btn-primary"type="submit" value="Novo cadastro"></td>
+          <td><input type="text" name="nome"></td>
+          <td><input type="text" name="email"></td>
+          <td><input type="text" name="telefone"></td>
+          <td><input class="btn btn-primary" type="submit" value="Cadastrar"></td>
           </form>
         </tr>
 
